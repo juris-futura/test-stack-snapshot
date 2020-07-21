@@ -37,3 +37,6 @@ This builds the project just fine:
 STACK_YAML=stack-works.yaml stack build
 ```
 
+Note, there seems to be no problem with projects which are not not in Hackage at all (this project adds dag-check dep which is exactly like that).
+
+Seems to be a regression?  See https://github.com/commercialhaskell/stack/issues/3714
