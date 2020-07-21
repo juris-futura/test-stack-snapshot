@@ -1,0 +1,14 @@
+resolver: lts-11.22
+
+packages:
+- .
+
+extra-deps: 
+- symbols-0.3.0.0
+- git: git@github.com:rpeszek/dag-check
+  commit: 9078a21d2d0ac745aa48a8d065e1dc4c0369ff45
+- git: git@github.com:rpeszek/typed-encoding
+  commit: e938fcb63f5f18bf1dda5e5aad0ac0be660b18d1
+
+
+
